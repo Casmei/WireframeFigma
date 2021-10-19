@@ -1,0 +1,263 @@
+/* ---- GOOGLE FONTS ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:wght@400;600;700&display=swap');
+
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Mulish', sans-serif 
+*/
+
+/* ---- RESET CSS ---- */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- LAYOUT ---- */
+
+
+
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* ---- HEADER ---- */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px 0 28px 0;
+    background-color: #F3F6FA;
+}
+
+header .logo {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #3C64B1;
+}
+
+header .logo img {
+    width: 40px;
+}
+
+header .navigation ul{
+    display: flex;
+    list-style: none;
+}
+
+header .navigation > ul > li > a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 32px;
+    text-decoration: none;
+    color: #373F41;
+}
+
+header .login a {
+    text-decoration: none;
+    color: #3C64B1;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header .login > .sing-up {
+    background-color: #3C64B1;
+    color: #F3F6FA;
+    padding: 12px 18px;
+}
+
+/* ---- MAIN ---- */
+
+
+main {
+    background-color: #F3F6FA;
+}
+
+.hero{    
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+main .img > img{
+    width: 500px;
+}
+
+.about{
+    margin-left: 30px;
+}
+
+.about p:first-child{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: #3C64B1;
+    margin-bottom: 12px;
+}
+
+.about h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2;
+    color: #373F41;
+    font-size: 44px;
+    margin-bottom: 40px;
+}
+
+.about p{
+    color: #737B7D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 56px;
+}
+
+.about .contact-us{
+    border: 1px solid #3C64B1;
+    color: #3C64B1;
+    padding: 12px 18px;
+
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* ---- INFO ---- */
+
+.section-info {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section-info .info{
+    margin-right: 30px;
+}
+
+.section-info .info h1{
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 56px;
+    line-height: 1.4;
+    color: #373F41;
+}
+
+.section-info .info .products{
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #737B7D;
+}
+
+.products .product-1{
+    margin-right: 30px;
+}
+
+.products .product-1 img{
+    width: 32px;
+    margin-bottom: 16px;
+}
+
+
+.section-info img {
+    width: 400px;
+}
+
+/* INICIO FOOTER */
+
+.footer {
+    background-color: #1d1e20;
+    padding:25px 0;
+    bottom:0;
+    width:100%;
+    font-family: Source Sans Pro;
+
+}
+
+
+.footer p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.5;
+    margin-top:0.7em ;
+    margin-bottom:0.7em ;
+
+    color: white;
+}
+
+.footer  strong {
+    color: rgb(118, 243, 145);
+    opacity: 1;
+}
+
+k {
+    color: rgb(68, 163, 88);
+    font-weight: bold;
+    
+}
+
+/* FIM DO FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* max-width 
+@media screen and (max-width: 800px) {
+	.hero{    
+        padding-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 28px 0 28px 0;
+        background-color: #F3F6FA;
+    }
+} */
